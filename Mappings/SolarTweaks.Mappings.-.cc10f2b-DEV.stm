@@ -92,8 +92,8 @@
         },
         "path": "lunar/au/IIllllIlllIlIIIIlllIIllll",
         "methodName": "<init>(Ljava/util/Map;)V",
-        "searchFor": "GETSTATIC lunar/as/IllIlllllIlIIIlIlIIIIIIll.lIlIlIlIIlllIIIIIIIlllIlI Ljava/lang/String;\nINVOKEDYNAMIC makeConcatWithConstants (Ljava/lang/String;)Ljava/lang/String; handle[H_INVOKESTATIC java/lang/invoke/StringConcatFactory.makeConcatWithConstants(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;] args[\"wss://assetserver.\\u0001/connect\"]\nINVOKESPECIAL java/net/URI.<init>(Ljava/lang/String;)V\nNEW org/java_websocket/drafts/Draft_6455\nDUP\nINVOKESPECIAL org/java_websocket/drafts/Draft_6455.<init>()V",
-        "replaceWith": "LDC \"$custom_text\"\nINVOKESPECIAL java/net/URI.<init>(Ljava/lang/String;)V\nNEW org/java_websocket/drafts/Draft\nDUP\nINVOKESPECIAL org/java_websocket/drafts/Draft.<init>()V"
+        "searchFor": "GETSTATIC lunar/as/IllIlllllIlIIIlIlIIIIIIll.lIlIlIlIIlllIIIIIIIlllIlI Ljava/lang/String;\nINVOKEDYNAMIC makeConcatWithConstants (Ljava/lang/String;)Ljava/lang/String; handle[H_INVOKESTATIC java/lang/invoke/StringConcatFactory.makeConcatWithConstants(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;] args[\"wss://assetserver.\\u0001/connect\"]\nINVOKESPECIAL java/net/URI.<init>(Ljava/lang/String;)V\nNEW org/java_websocket/drafts/Draft_6455\nDUP\nINVOKESPECIAL org/java_websocket/drafts/Draft_6455.<init>()V\nALOAD 1\nSIPUSH 30000\nINVOKESPECIAL org/java_websocket/client/WebSocketClient.<init>(Ljava/net/URI;Lorg/java_websocket/drafts/Draft;Ljava/util/Map;I)V",
+        "replaceWith": "LDC \"$custom_text\"\nINVOKESPECIAL java/net/URI.<init>(Ljava/lang/String;)V\nNEW org/java_websocket/drafts/Draft_6455\nDUP\nINVOKESPECIAL org/java_websocket/drafts/Draft_6455.<init>()V\nCHECKCAST org/java_websocket/drafts/Draft\nALOAD 1\nSIPUSH 30000\nINVOKESPECIAL org/java_websocket/client/WebSocketClient.<init>(Ljava/net/URI;Lorg/java_websocket/drafts/Draft;Ljava/util/Map;I)V"
       }
     ]
   }
