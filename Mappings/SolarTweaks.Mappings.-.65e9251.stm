@@ -1,0 +1,87 @@
+{
+  "commit": {
+    "id": "65e9251",
+    "fullId": "65e9251f4ec590bef97836dd6dc2261333645c83",
+    "filePath": "lunar/ax/IllIlllllIIllIllIIIlllllI"
+  },
+  "patchs": {
+    "freelook": [
+      {
+        "patchType": "replace",
+        "scripts": {
+          "searchFor": "replace1.txt",
+          "replaceWith": "replace2.txt"
+        },
+        "path": "lunar/dD/lIlIIIlllIlllllllIlllllII",
+        "methodName": "IllIlllllIIllIllIIIlllllI(Lcom/google/gson/JsonObject;Ljava/util/function/Predicate;Llunar/aT/llllllIlIlIIlIIIllllIllIl;)V",
+        "searchFor": "LDC \"enabled\"",
+        "replaceWith": "LDC \"removedBySolarTweaks\""
+      }
+    ],
+    "pinnedServers": [
+      {
+        "patchType": "replace",
+        "scripts": {
+          "searchFor": "replace1.txt",
+          "replaceWith": "replace2.txt"
+        },
+        "path": "lunar/dD/lIlIIIlllIlllllllIlllllII",
+        "methodName": "run()V",
+        "searchFor": "LDC \"pinnedServers\"",
+        "replaceWith": "LDC \"removedBySolarTweaks\""
+      }
+    ],
+    "modspacket": [
+      {
+        "patchType": "replace",
+        "scripts": {
+          "searchFor": "replace1.txt",
+          "replaceWith": "replace2.txt"
+        },
+        "path": "com/lunarclient/bukkitapi/nethandler/LCPacket",
+        "methodName": "<clinit>()V",
+        "searchFor": "AD:\nLINE AD 56\nBIPUSH 31\nLDC Lcom/lunarclient/bukkitapi/nethandler/client/LCPacketModSettings;\nINVOKESTATIC com/lunarclient/bukkitapi/nethandler/LCPacket.addPacket(ILjava/lang/Class;)V\nAE:",
+        "replaceWith": "AE:"
+      }
+    ],
+    "levelHead": [
+      {
+        "patchType": "replace",
+        "scripts": {
+          "searchFor": "replace1.txt",
+          "replaceWith": "replace2.txt"
+        },
+        "path": "lunar/bt/IllIlllllIIllIllIIIlllllI",
+        "methodName": "IllIlllllIIllIllIIIlllllI(Llunar/aK/lIIllIIlIllIIlIIllllllIIl;)V",
+        "searchFor": "LDC \"Level: \"",
+        "replaceWith": "LDC \"$custom_text\""
+      }
+    ],
+    "autogg": [
+      {
+        "patchType": "replace",
+        "scripts": {
+          "searchFor": "replace1.txt",
+          "replaceWith": "replace2.txt"
+        },
+        "path": "lunar/bt/IllIlllllIIllIllIIIlllllI",
+        "methodName": "IllIlllllIIllIllIIIlllllI(Llunar/aG/lIlIIIlllIlllllllIlllllII;)V",
+        "searchFor": "LDC \"/achat gg\"",
+        "replaceWith": "LDC \"/achat $custom_text\""
+      }
+    ],
+    "nick": [
+      {
+        "patchType": "replace",
+        "scripts": {
+          "searchFor": "replace1.txt",
+          "replaceWith": "replace2.txt"
+        },
+        "path": "lunar/bD/llllIIlllIlllIllIlIllIlll",
+        "methodName": "IIlIIllIlIllIlIIIIIlllllI(Z)Ljava/lang/String;",
+        "searchFor": "LDC \"You\"",
+        "replaceWith": "LDC \"$custom_text\""
+      }
+    ]
+  }
+}
