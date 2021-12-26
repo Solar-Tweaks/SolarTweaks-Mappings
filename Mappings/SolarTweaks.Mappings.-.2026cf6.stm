@@ -1,0 +1,139 @@
+{
+  "commit": {
+    "id": "2026cf6",
+    "fullId": "2026cf65e7271f4c50289d7b8fd1ad60b8a0451e",
+    "filePath": "lunar/ax/llIlIIIllIlllllIllIIIIIlI"
+  },
+  "patchs": {
+    "freelook": [
+      {
+        "patchType": "replace",
+        "scripts": {
+          "searchFor": "script1.txt",
+          "replaceWith": "script2.txt"
+        },
+        "path": "lunar/et/llIllIIllIlIlIIIIlIlIllll",
+        "methodName": "llIlIIIllIlllllIllIIIIIlI(Lcom/google/gson/JsonObject;Ljava/util/function/Predicate;Llunar/aV/llIIIllIIllIIIllIIlIllIIl;)V",
+        "searchFor": "LDC \"enabled\"",
+        "replaceWith": "LDC \"removedBySolarTweaks\""
+      }
+    ],
+    "pinnedServers": [
+      {
+        "patchType": "replace",
+        "scripts": {
+          "searchFor": "script1.txt",
+          "replaceWith": "script2.txt"
+        },
+        "path": "lunar/et/llIllIIllIlIlIIIIlIlIllll",
+        "methodName": "run()V",
+        "searchFor": "LDC \"pinnedServers\"",
+        "replaceWith": "LDC \"removedBySolarTweaks\""
+      }
+    ],
+    "blogPosts": [
+      {
+        "patchType": "replace",
+        "scripts": {
+          "searchFor": "script1.txt",
+          "replaceWith": "script2.txt"
+        },
+        "path": "lunar/et/llIllIIllIlIlIIIIlIlIllll",
+        "methodName": "run()V",
+        "searchFor": "LDC \"blogPosts\"",
+        "replaceWith": "LDC \"removedBySolarTweaks\""
+      }
+    ],
+    "modspacket": [
+      {
+        "patchType": "replace",
+        "scripts": {
+          "searchFor": "script1.txt",
+          "replaceWith": "script2.txt"
+        },
+        "path": "com/lunarclient/bukkitapi/nethandler/LCPacket",
+        "methodName": "<clinit>()V",
+        "searchFor": "AD:\nLINE AD 56\nBIPUSH 31\nLDC Lcom/lunarclient/bukkitapi/nethandler/client/LCPacketModSettings;\nINVOKESTATIC com/lunarclient/bukkitapi/nethandler/LCPacket.addPacket(ILjava/lang/Class;)V\nAE:",
+        "replaceWith": "AE:"
+      }
+    ],
+    "mantle": [
+      {
+        "patchType": "replace",
+        "scripts": {
+          "searchFor": "script1.txt",
+          "replaceWith": "script2.txt"
+        },
+        "path": "lunar/a/llIllIIllIlIlIIIIlIlIllll",
+        "methodName": "<clinit>()V",
+        "searchFor": "LDC \"http://s.optifine.net\"",
+        "replaceWith": "LDC \"http://capes.mantle.gg\""
+      }
+    ],
+    "levelHead": [
+      {
+        "patchType": "replace",
+        "scripts": {
+          "searchFor": "script1.txt",
+          "replaceWith": "script2.txt"
+        },
+        "path": "lunar/bv/llIIIllIIllIIIllIIlIllIIl",
+        "methodName": "llIlIIIllIlllllIllIIIIIlI(Llunar/aM/lllllIIlIlIIIIllIllIlllII;)V",
+        "searchFor": "LDC \"Level: \"",
+        "replaceWith": "LDC \"$custom_text\""
+      }
+    ],
+    "autogg": [
+      {
+        "patchType": "replace",
+        "scripts": {
+          "searchFor": "script1.txt",
+          "replaceWith": "script2.txt"
+        },
+        "path": "lunar/bv/llIIIllIIllIIIllIIlIllIIl",
+        "methodName": "llIlIIIllIlllllIllIIIIIlI(Llunar/aH/llIllIIllIlIlIIIIlIlIllll;)V",
+        "searchFor": "LDC \"/achat gg\"",
+        "replaceWith": "LDC \"/achat $custom_text\""
+      }
+    ],
+    "nick": [
+      {
+        "patchType": "replace",
+        "scripts": {
+          "searchFor": "script1.txt",
+          "replaceWith": "script2.txt"
+        },
+        "path": "lunar/bF/lllIlIIllllIllIIIlIlIIIll",
+        "methodName": "IIIlIlIlIIIllIlIIllllllIl(Z)Ljava/lang/String;",
+        "searchFor": "LDC \"You\"",
+        "replaceWith": "LDC \"$custom_text\""
+      }
+    ],
+    "fps": [
+      {
+        "patchType": "replace",
+        "scripts": {
+          "searchFor": "script1.txt",
+          "replaceWith": "script2.txt"
+        },
+        "path": "lunar/bp/llIlIIIllIlllllIllIIIIIlI",
+        "methodName": "llllllIlIlIIIIIllIIIIIIlI()Ljava/lang/String;",
+        "searchFor": "args[\"\\u0001 FPS\"]",
+        "replaceWith": "args[\"\\u0001 $custom_text\"]"
+      }
+    ],
+    "websocket": [
+      {
+        "patchType": "replace",
+        "scripts": {
+          "searchFor": "script1.txt",
+          "replaceWith": "script2.txt"
+        },
+        "path": "lunar/au/llIIllIlIIlIIIIIIlIllIllI",
+        "methodName": "<init>(Ljava/util/Map;)V",
+        "searchFor": "GETSTATIC",
+        "replaceWith": "GETSTATIC"
+      }
+    ]
+  }
+}
